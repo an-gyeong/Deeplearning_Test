@@ -1,6 +1,6 @@
-from data import loader
-from data import function
-from data import model
+from RNN_BrentOilPrices import loader
+from RNN_BrentOilPrices import function
+from RNN_BrentOilPrices import model
 
 path = "D:/0403_0408/content/data/BrentOilPrices.csv"
 
