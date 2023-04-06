@@ -11,5 +11,6 @@ def model_fit(train_x, train_y, test_x, test_y):
     model.compile(loss='mse', optimizer='adam', metrics=['acc'])
 
     history=model.fit(train_x, train_y, epochs=10)
+    
     test_loss, test_acc = model.evaluate(test_x, test_y)
     print('loss: {:.4f}\nacc: {:.4f}'.format(test_loss, test_acc))
